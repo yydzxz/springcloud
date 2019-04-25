@@ -9,14 +9,14 @@ spring:
         show_sql: true
 
 server:
-  port: 8443
+  port: 8444
   ssl:
     key-store: C:\Users\yyd\mykeys.jks
     key-store-password: letmein
     key-password: letmein
 management:
   server:
-    port: 1111
+    port: 1112
   endpoints:
     web:
       exposure:
@@ -36,4 +36,4 @@ logging:
 
 
 a:
-  b: i'm in github
+  b: i'm organization in github dev
