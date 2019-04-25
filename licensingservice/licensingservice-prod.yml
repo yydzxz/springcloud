@@ -33,7 +33,5 @@ logging:
   level:
     root: WARN
     org.springframework.security: DEBUG
-
-
 a:
-  b: prod
+  b: i'm in github
