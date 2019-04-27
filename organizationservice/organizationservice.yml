@@ -8,12 +8,12 @@ spring:
       hibernate:
         show_sql: true
 
-server:
-  port: 8444
-  ssl:
-    key-store: C:\Users\yyd\mykeys.jks
-    key-store-password: letmein
-    key-password: letmein
+#server:
+#  port: 8444
+#  ssl:
+#    key-store: C:\Users\yyd\mykeys.jks
+#    key-store-password: letmein
+#    key-password: letmein
 management:
   server:
     port: 1112
